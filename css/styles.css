@@ -156,7 +156,7 @@ padding: 120px 0;
 }
 
 .hero {
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7));
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
    url(../images/people-office\ 1-min.jpg);
    max-width: 1440px;
    background-repeat: no-repeat;
@@ -457,7 +457,6 @@ transform: translate(0);
 .footer-general {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
   gap: 120px;
 }
 
