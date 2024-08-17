@@ -468,7 +468,6 @@ transform: translate(0);
 .footer-general {
   display: flex;
   align-items: baseline;
-  gap: 120px;
 }
 
 .footer-container {
@@ -476,8 +475,7 @@ transform: translate(0);
     flex-direction: column;
     gap: 16px;
     margin-right: 120px;
-    margin-left: 156px;
-    
+     
   }
 
  
