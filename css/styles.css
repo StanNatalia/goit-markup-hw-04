@@ -320,9 +320,20 @@ people-office\ 1-min.jpg
  
 }
 
+.people-social-media-link {
+  height: 100%;
+  width: 100%;
+  background-color: #4d5ae5;
+  border-radius:50%;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 
-.people-social-media-li:hover,
-.people-social-media-li:focus {
+
+  .people-social-media-link:hover,
+  .people-social-media-link:focus {
   background-color: #404bbf;;
 }
 
@@ -340,13 +351,12 @@ align-items: center;
 width: calc((100%-72px)/4);
 width: 40px;
 height: 40px;
-background-color: #4d5ae5;
-border-radius: 50%;
 display: flex;
-justify-content: center;
 align-items: center;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+justify-self: center;
 }
+
+
 
 .people-item-title {
   margin-bottom: 8px;
